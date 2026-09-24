@@ -1,7 +1,17 @@
 {
   "channel": "production",
-  "version": "1.23.0",
+  "version": "1.23.1",
   "patch_url": "",
   "sha256": "",
-  "notes": "Initial production baseline. No patch is applied at this version."
+  "notes": "Version display update to 1.23.1. No trading logic changes.",
+  "replacements": [
+    {"file":"index.html","old":"LITTO Trading System v1.22","new":"LITTO Trading System v1.23.1"},
+    {"file":"index.html","old":"LITTO VERSION 1.22","new":"LITTO VERSION 1.23.1"},
+    {"file":"index.html","old":"LITTO v1.22 · SMART TRADING PARTNER","new":"LITTO v1.23.1 · SMART TRADING PARTNER"},
+    {"file":"index.html","old":"<b>LITTO v1.0</b>","new":"<b>LITTO v1.23.1</b>"},
+    {"file":"web/index.html","old":"LITTO Trading System v1.22","new":"LITTO Trading System v1.23.1"},
+    {"file":"web/index.html","old":"LITTO VERSION 1.22","new":"LITTO VERSION 1.23.1"},
+    {"file":"web/index.html","old":"LITTO v1.22 · SMART TRADING PARTNER","new":"LITTO v1.23.1 · SMART TRADING PARTNER"},
+    {"file":"web/index.html","old":"<b>LITTO v1.0</b>","new":"<b>LITTO v1.23.1</b>"}
+  ]
 }
