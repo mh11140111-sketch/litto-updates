@@ -1,0 +1,7 @@
+{
+  "channel": "production",
+  "version": "1.23.0",
+  "patch_url": "",
+  "sha256": "",
+  "notes": "Initial production baseline. No patch is applied at this version."
+}
