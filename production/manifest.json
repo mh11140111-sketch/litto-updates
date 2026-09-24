@@ -1,17 +1,24 @@
 {
   "channel": "production",
-  "version": "1.23.1",
+  "version": "1.23.2",
   "patch_url": "",
   "sha256": "",
-  "notes": "Version display update to 1.23.1. No trading logic changes.",
+  "notes": "Normalize all visible LITTO version labels, including the desktop window title. No trading logic changes.",
   "replacements": [
-    {"file":"index.html","old":"LITTO Trading System v1.22","new":"LITTO Trading System v1.23.1"},
-    {"file":"index.html","old":"LITTO VERSION 1.22","new":"LITTO VERSION 1.23.1"},
-    {"file":"index.html","old":"LITTO v1.22 · SMART TRADING PARTNER","new":"LITTO v1.23.1 · SMART TRADING PARTNER"},
-    {"file":"index.html","old":"<b>LITTO v1.0</b>","new":"<b>LITTO v1.23.1</b>"},
-    {"file":"web/index.html","old":"LITTO Trading System v1.22","new":"LITTO Trading System v1.23.1"},
-    {"file":"web/index.html","old":"LITTO VERSION 1.22","new":"LITTO VERSION 1.23.1"},
-    {"file":"web/index.html","old":"LITTO v1.22 · SMART TRADING PARTNER","new":"LITTO v1.23.1 · SMART TRADING PARTNER"},
-    {"file":"web/index.html","old":"<b>LITTO v1.0</b>","new":"<b>LITTO v1.23.1</b>"}
+    {"file":"LITTO_DESKTOP.pyw","old":"LITTO Trading System v1.21","new":"LITTO Trading System v1.23.2"},
+    {"file":"LITTO_DESKTOP.py","old":"LITTO Trading System v1.21","new":"LITTO Trading System v1.23.2"},
+
+    {"file":"index.html","old":"LITTO Trading System v1.23.1","new":"LITTO Trading System v1.23.2"},
+    {"file":"index.html","old":"LITTO VERSION 1.23.1","new":"LITTO VERSION 1.23.2"},
+    {"file":"index.html","old":"LITTO v1.23.1 · SMART TRADING PARTNER","new":"LITTO v1.23.2 · SMART TRADING PARTNER"},
+    {"file":"index.html","old":"<b>LITTO v1.23.1</b>","new":"<b>LITTO v1.23.2</b>"},
+
+    {"file":"web/index.html","old":"LITTO Trading System v1.23.1","new":"LITTO Trading System v1.23.2"},
+    {"file":"web/index.html","old":"LITTO VERSION 1.23.1","new":"LITTO VERSION 1.23.2"},
+    {"file":"web/index.html","old":"LITTO v1.23.1 · SMART TRADING PARTNER","new":"LITTO v1.23.2 · SMART TRADING PARTNER"},
+    {"file":"web/index.html","old":"<b>LITTO v1.23.1</b>","new":"<b>LITTO v1.23.2</b>"},
+
+    {"file":"app.js","old":"replace(/v1\\.(?:0|2|21)/gi,'v1.22').replace(/VERSION\\s*1\\.(?:0|2|21)/gi,'VERSION 1.22')","new":"replace(/v1\\.(?:0|2|21|22|23\\.1)/gi,'v1.23.2').replace(/VERSION\\s*1\\.(?:0|2|21|22|23\\.1)/gi,'VERSION 1.23.2')"},
+    {"file":"web/app.js","old":"replace(/v1\\.(?:0|2|21)/gi,'v1.22').replace(/VERSION\\s*1\\.(?:0|2|21)/gi,'VERSION 1.22')","new":"replace(/v1\\.(?:0|2|21|22|23\\.1)/gi,'v1.23.2').replace(/VERSION\\s*1\\.(?:0|2|21|22|23\\.1)/gi,'VERSION 1.23.2')"}
   ]
 }
