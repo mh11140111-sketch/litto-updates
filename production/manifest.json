@@ -1,1 +1,1 @@
-{"channel":"production","version":"2.0","patch_url":"","sha256":"","notes":"LITTO 2.0 회원 배포 일시중지: 일부 기존 회원판에서 메인 화면 렌더링 호환 문제 확인 중.","replacements":[]}
+{"channel":"production","version":"2.0.1","patch_url":"https://raw.githubusercontent.com/mh11140111-sketch/litto-updates/main/production/LITTO_UPDATE_2.0.1_MEMBER_CACHE_HOTFIX_20261002.zip","sha256":"a4d4ad25f773334958c489cddea50cb6a15b5f5fa54dbe4e5577f4e8bd2645cc","notes":"LITTO 2.0.1 회원판 핫픽스: 기존 회원 PC에서 메인 화면이 깨질 수 있는 WebView 정적파일 캐시 충돌을 방지하도록 캐시 버전 키를 갱신함. 기능 로직은 변경하지 않음.","replacements":[]}
