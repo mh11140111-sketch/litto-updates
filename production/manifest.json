@@ -5,3 +5,4 @@
   "sha256": "d26386259471fc27b95ebc72282f7f8dabbd8f4b5e9fa0173adc984c8a2df23c",
   "notes": "LITTO 2.2.0 MEMBER: v4.5.17 stability fixes, member UI version 2.2.0, theme and Nasdaq chart updates. Existing member launcher, login data, settings and LITTO.exe remain unchanged. Test on Windows before activating manifest.",
   "replacements": []
+}
