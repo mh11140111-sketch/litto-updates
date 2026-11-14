@@ -1,8 +1,8 @@
 {
   "channel": "production",
-  "version": "2.2.1",
-  "patch_url": "https://raw.githubusercontent.com/mh11140111-sketch/litto-updates/main/production/LITTO_2.2.1_MEMBER_GITHUB_RELEASE_PATCH.zip",
-  "sha256": "f6d9a3dbf54f138d0274d95d6b7ff72aaf9c247145b99c647753a530f750a3eb",
-  "notes": "LITTO 2.2.1 MEMBER emergency AI window: AI button toggles open/close; expanded panel remains within screen and restore controls are visible; Escape restores. Existing installed EXE, member authentication and trading functionality unchanged.",
+  "version": "2.3",
+  "patch_url": "https://raw.githubusercontent.com/mh11140111-sketch/litto-updates/main/production/LITTO_2.3_MEMBER_UPDATE_PATCH.zip",
+  "sha256": "55b481df5af942516d01ac41983f050266933bbd21cf2311025f46b21031a2f7",
+  "notes": "LITTO 2.3 MEMBER update. Member-specific UI retained; F-zone and chart improvements from admin 2.3. Existing authentication and order engine are not replaced by this patch.",
   "replacements": []
 }
