@@ -1,8 +1,8 @@
 {
   "channel": "production",
-  "version": "2.3",
-  "patch_url": "https://raw.githubusercontent.com/mh11140111-sketch/litto-updates/main/production/LITTO_2.3_MEMBER_UPDATE_PATCH.zip",
-  "sha256": "55b481df5af942516d01ac41983f050266933bbd21cf2311025f46b21031a2f7",
-  "notes": "LITTO 2.3 MEMBER update. Member-specific UI retained; F-zone and chart improvements from admin 2.3. Existing authentication and order engine are not replaced by this patch.",
+  "version": "2.4",
+  "patch_url": "https://raw.githubusercontent.com/mh11140111-sketch/litto-updates/main/production/LITTO_MEMBER_2.4_CUMULATIVE_UPDATE_PATCH.zip",
+  "sha256": "34d4ac930b3d4a5a45d9517aaf6e66330ccabfffe8587fdff72bf0d2a399d9c8",
+  "notes": "LITTO MEMBER 2.4 cumulative update. Includes member UI and desktop/night modules. Apply only to compatible LITTO MEMBER installations; back up existing files before replacing.",
   "replacements": []
 }
